@@ -11,6 +11,6 @@ int main()
 	    if (current == previous)
 	        cout << " Repeated word:" << current << endl;
 	    previous = current;
-	    cout << "previous:" << previous;
+	    cout << "previous:" << previous << endl;
 	}
 }
