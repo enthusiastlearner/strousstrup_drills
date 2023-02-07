@@ -1,0 +1,108 @@
+1. What is meant by the term prompt?
+Example: cout << "Enter your name!"; This message encourages the user to enter value. 
+This is called prompt.
+
+2. Which operator do you use to read into a variable?
+Operator >>
+Example: cin >>
+
+3. If you want the user to input an integer value into your program for a variable named number,
+what are two lines of code you could write to ask the user to do it and to input the value into
+your program?
+cout << "Enter your number!";
+int num;
+cin >> num;
+
+4. What is \n called and what purpose does it serve?
+The \n is a “special character” indicating a newline.
+
+5. What terminates input into a string?
+whitespace 
+
+6. What terminates input into an integer?
+whitespace or an input that is not an integer.
+
+7. How would you write
+cout << "Hello, ";
+cout << first_name;
+cout << "!\n";
+as a single line of code?
+cout << "Hello," << first_name << "!\n";
+
+8. What is an object?
+An object is a region of memory with a type that specifies what kind of information can be placed in it.
+
+9. What is a literal?
+In C++, string literals are delimited by double quotes ("); that is, "Hello, World!\n" is a string
+of characters.
+
+10. What kinds of literals are there?
+Integer literal - Decimal, Octal, Hex, Binary
+Floating point literal - contains a decimal point (.), an exponent (e.g., e3), or a floating-point suffix (d or f)
+Boolean literal - true or false
+Character literal - a character enclosed in single quotes
+String literal - series of characters enclosed in double quotes
+Pointer literal - null pointer
+
+11. What is a variable?
+A named object is called a variable.
+For example, character strings are put into string variables and integers are put into int variables.
+
+12. What are typical sizes for a char, an int, and a double?
+char 	- 1 Byte
+int 	- 4 Bytes
+double 	- 8 bytes
+
+13. What measures do we use for the size of small entities in memory, such as ints and strings?
+For ints we use usually 4 bytes which are 32 bits. 
+A string is of variable size with its length stored and made up of single characters 
+that require each 1 byte of memory.
+
+14. What is the difference between = and ==?
+assignment operator and equality operator
+
+15. What is a definition?
+A statement that introduces a new name into a program and sets aside memory for a variable is called
+a definition
+
+16. What is an initialization and how does it differ from an assignment?
+Initialization (giving a variable its initial value)
+Assignment (giving a variable a new value)
+
+17. What is string concatenation and how do you make it work in C++?
+concatenation is joining strings together.
+string s1,s2;
+string s = s1+s2;
+
+18. Which of the following are legal names in C++? If a name is not legal, why not?
+This_little_pig => legal
+This_1_is fine => legal
+2_For_1_special => illugal as it begins with number 2
+latest thing the_$12_method ==> illegal as it has dollar signal
+_this_is_ok ==> legal
+MiniMineMine ==> legal 
+number  ==> legal
+correct? ==> illegal as it has ?
+
+19. Give five examples of legal names that you shouldn’t use because they are likely to cause
+confusion.
+a. Programmer can get confused from standard library
+int String = 2; // Similar to string
+double Int = 1.2; // Similar to int
+double Double = 1.2; // Similar to doulbe
+b. reserved keywords
+int Static = 42;
+c. Avoid names that are easy to mistype, misread, or confuse
+d. Avoid acronyms and abbreviations
+e. Overly short names (x, i) and longely names.
+
+20. What are some good rules for choosing names?
+names that will help people understand your program
+
+21. What is type safety and why is it important?
+Every object is given a type when it is defined.
+A program — or a part of a program — is type-safe when objects are used only according to the rules for their type. 
+
+22. Why can conversion from double to int be a bad thing?
+
+23. Define a rule to help decide if a conversion from one type to another is safe or unsafe.
