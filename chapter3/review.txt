@@ -101,8 +101,10 @@ names that will help people understand your program
 
 21. What is type safety and why is it important?
 Every object is given a type when it is defined.
-A program — or a part of a program — is type-safe when objects are used only according to the rules for their type. 
+A program or a part of a program is type-safe when objects are used only according to the rules for their type. 
 
 22. Why can conversion from double to int be a bad thing?
+Loss of data (accuracy) happens here. When int is intended, whn double is used memory wastage.
 
 23. Define a rule to help decide if a conversion from one type to another is safe or unsafe.
+A conversion is unsafe when the memory reserved for the destination type is lesser than the source datataype.
