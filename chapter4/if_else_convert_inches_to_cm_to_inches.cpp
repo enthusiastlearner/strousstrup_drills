@@ -16,9 +16,9 @@ int main()
     cout << " Please enter a length followed by unit (c for cm and i for inch):\n";
     cin >> length >> unit;
     
-    if (unit == 'c')
+    if (unit == 'i')
         cout << length << "in = " << cm_per_inch * length << " cm\n";
-    else if (unit == 'i')
+    else if (unit == 'c')
         cout << length << "cm = " << length / cm_per_inch << " in\n";
     else
         cout << "I do not know the specified units\n";
