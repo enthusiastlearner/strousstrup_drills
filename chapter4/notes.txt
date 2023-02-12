@@ -1,0 +1,26 @@
+- Computation is solving the expressions often called as programs
+- To compute we need inputs.
+- Inputs can be from keyboard, sensors
+- Outputs are display or input to other device etc.
+- Job of programer: Express the computations correctly, simply, efficiently.
+- Tools for organizing the program:
+	- Abstraction - hiding the unnecessary details
+	- Divide and conquer
+- Whne building a big software, structure and organization matters a lot.
+- Expressions compute value from operands-
+- A simple expression is the initialization of literal. int length = 5;
+- Over use of parenthesis in expression damage the readability. USe wisely.
+- Give meaningful name for constants.
+- Prefer not to sue literals in the code.
+- Non obvious lieratls in code is called magic constants. Avoid it!
+- A 'constexpr' symbolic constant must be given a value that must be known at compiletime.
+constexpr int pi = 3.142899
+- Constants that are unknown during compile time can be intialized as 'const'.
+- After initialization, 'const' do not change.
+const int c = n+1;
+- Any mathematical operator can be used to build any compley expresssion.
+- ++a is preferred increment operator
+- a*=s is prefereed for multiplication and then assignment.
+- conversions: type(value) , type{value}
+- type(value) Example 5/2 = 2 where 5/2.0 = 2.5
+- type{value} prevents narrowing down.
