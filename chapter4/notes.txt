@@ -30,5 +30,15 @@ in a consecutive order.
 - semicolon in an expression indicates termination
 - Empty statement is a one that does nothing
 - Selection statement selects from alternatives.
-	- if-else choose from two alternative
+	- if-else choose from two alternative 
+	- nested if-else for many alternatives.
+	- switch statements
+		- The value of switch must be int, char, enum
+		- The value of case label must be constant
+		- Break must be used.
+	- To select based on a string, 'if' or 'map' msu be used.
+- Iteration statememnt: doing something several times
+	- while statements: Initializer present before while loop, condition immediate the while loop and increment at the end.
+	- Block statements: compound (many) statements inside curly braces
+	- For statements: Good readability because it has initializer, condition and increment
 	
