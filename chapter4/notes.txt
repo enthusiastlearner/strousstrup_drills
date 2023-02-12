@@ -6,7 +6,7 @@
 - Tools for organizing the program:
 	- Abstraction - hiding the unnecessary details
 	- Divide and conquer
-- Whne building a big software, structure and organization matters a lot.
+- When building a big software, structure and organization matters a lot.
 - Expressions compute value from operands-
 - A simple expression is the initialization of literal. int length = 5;
 - Over use of parenthesis in expression damage the readability. USe wisely.
