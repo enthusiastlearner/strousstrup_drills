@@ -21,7 +21,7 @@ int main()
     else if (unit == 'i')
         cout << length << "cm = " << length / cm_per_inch << " in\n";
     else
-        cout << "I do not the specified units\n";
+        cout << "I do not know the specified units\n";
         
     return 0;
 }
