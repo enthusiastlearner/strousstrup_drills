@@ -24,3 +24,11 @@ const int c = n+1;
 - conversions: type(value) , type{value}
 - type(value) Example 5/2 = 2 where 5/2.0 = 2.5
 - type{value} prevents narrowing down.
+- Many expressions constitute together called as statements in a program. Each expression in the statement
+in a consecutive order.
+- There are declaration statements, expression statements that does some oeprations.
+- semicolon in an expression indicates termination
+- Empty statement is a one that does nothing
+- Selection statement selects from alternatives.
+	- if-else choose from two alternative
+	
